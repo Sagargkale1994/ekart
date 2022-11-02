@@ -1,0 +1,23 @@
+.home-section{
+    height: 150px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.category a{
+    text-decoration: none;
+    color: black;
+}
+
+// .cat-title {
+//     text-decoration: none;
+//     color: black;
+// }
+
+.category img{
+    height: 70px;
+    width: 70px;
+}
