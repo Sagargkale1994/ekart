@@ -1,6 +1,9 @@
 .nav-container{
     margin-left: 190px;
+    justify-content: unset;
+    height: 45px;
 }
+
 .search-btn button {
     border: none;
     padding: 5px 10px 0;
@@ -10,20 +13,33 @@
 
 .search input{
     border: none;
-    margin-top: 3px;
-    padding: 6px;
+    margin: 3px 0 0 15px;
+    padding: 7.5px;
     border-radius: 2px 0 0 2px;
+    width: 350px;
 }
 
 .search mat-icon {
     padding-top: 2px
 }
 
-.log-btn a{
+.login{
+    margin: 3px 0 0 30px
+}
+
+.log-btn{
+    
+}
+
+.login a{
     text-decoration: none;
     background: white;
-    padding: 5px 16px;
+    padding: 7px 30px;
     border-radius: 2px;
+}
+
+.seller-section{
+    margin-left: 50px;
 }
 
 .seller-section a{
@@ -31,10 +47,28 @@
     text-decoration: none;
 }
 
+.more-section{
+    margin-left: 50px;
+}
+
 .more-section a{
     color: white;
     text-decoration: none;
 }
+
+.cart-section{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.none{
+    display: none;
+}
+
+// styling dropdown menu
+
+
 
 
 
