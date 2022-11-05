@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
     this.productData.getData("productsitems").subscribe((ele:any)=>{
       this.productList = ele;
       console.log("Product Data ",this.productList);
-      console.log(ele);
     })
   }
 }
